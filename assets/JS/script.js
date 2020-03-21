@@ -1,11 +1,4 @@
-// function navResponse() {
-//     var x = document.getElementById("myTopnav");
-//     if (x.className === "topnav") {
-//         x.className += " responsive";
-//     } else {
-//         x.className = "topnav";
-//     }
-// }
+//nav bar
 
 $('.open-overlay').click(function () {
     $('.open-overlay').css('pointer-events', 'none');
@@ -68,3 +61,5 @@ $('.open-overlay').click(function () {
         })
     }
 })
+
+//body scroll

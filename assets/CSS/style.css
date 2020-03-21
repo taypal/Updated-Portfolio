@@ -24,6 +24,7 @@ body {
 
 
 
+
   h1 {
       color: #4aaaa5;
       font-family: 'Fjalla One', sans-serif;
@@ -35,7 +36,7 @@ body {
       font-weight: bold;
   }
 
-  
+
   button {
     background-color: #CF687F;
     font-family: 'Fjalla One', sans-serif;
@@ -96,7 +97,7 @@ nav li a {
   top: 46%;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Work sans', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: 300;
   letter-spacing: 4px;
   text-decoration: none;
@@ -139,7 +140,7 @@ nav li a:after {
   right: 0;
   bottom: -50px;
   text-transform: none;
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: 300;
   font-style: italic;
   letter-spacing: 0;
@@ -160,11 +161,11 @@ nav li a:hover:after {
 }
 
 nav li:nth-of-type(1) {
-  background-color: #29363B
+  background-color: #C2C0C0
 }
 
 nav li:nth-of-type(2) {
-  background-color: #EA495F
+  background-color: #CF687F
 }
 
 nav li:nth-of-type(3) {
@@ -176,7 +177,7 @@ nav li:nth-of-type(4) {
 }
 
 nav li:nth-of-type(5) {
-  background-color: #99B998
+  background-color: #4aaaa5;
 }
 
 
