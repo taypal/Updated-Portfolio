@@ -1,17 +1,19 @@
 .container3{
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #fbf7f5;
     margin-right: auto;
     margin-left:  auto;
     margin-top: 20px;
     max-width: 960px;
     padding-right: 10px;
     padding-left:  10px; 
+    box-shadow: 15px 15px 1px #4aaaa5, 15px 15px 1px 2px rgba(0,0,0,1);
+    border: 2px solid rgba(0,0,0,1);
   }
 
   button {
-    background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #CF687F;
+    font-family: 'Fjalla One', sans-serif;
     color: white;
     border-radius: .25rem;
     margin-bottom: 15px;
@@ -19,5 +21,5 @@
 
 p {
     font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Fjalla One', sans-serif;
 }

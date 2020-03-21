@@ -1,12 +1,14 @@
 .container1{
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #fbf7f5;
     margin-right: auto;
     margin-left:  auto;
     margin-top: 20px;
     max-width: 960px;
     padding-right: 10px;
     padding-left:  10px; 
+    box-shadow: 15px 15px 1px #4aaaa5, 15px 15px 1px 2px rgba(0,0,0,1);
+    border: 2px solid rgba(0,0,0,1);
   }
 
 .img1 {
@@ -24,6 +26,6 @@
   }
 
   p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Fjalla One', sans-serif;
     font-size: large;
   }
