@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/resume.css">
+
+</head>
+
+<body>
+    <header>Taylor Paletta</header>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="nav" onclick="navResponse()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <main role="main" class="container">
+        <h1>Resume</h1>
+
+        <hr>
+
+        <img id="resumeImg" src="./assets/Images/IMAGE 1-21-20 AT 11.45 PM.jpeg" alt=" "
+            style="width:100%;max-width:300px">
+
+        <div id="response" class="modal">
+
+            <span class="close">&times;</span>
+
+            <img class="content" id="img01">
+
+            <div id="caption"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted"></span>
+        </div>
+    </footer>
+
+    <script src="./assets/JS/script.js"></script>
+
+    <script>
+        var modal = document.getElementById("response");
+
+        var img = document.getElementById("resumeImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function () {
+
+            modal.style.display = "none";
+
+        }
+    </script>
+
+</body>
+
+</html>
